@@ -22,7 +22,7 @@
     </head>
     <body>
             <!-- NAVBAR // configuracion de menu navegacion en Bootstrap 4 -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
             <!-- La clase container de bootstrap permite centrar, en este caso el menu de navegacion  -->
             <div class="container">           
@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#info-one">About</a>
                     </li>
                     <!--
                     <li class="nav-item dropdown">
@@ -54,7 +54,7 @@
                     </li>
                     -->
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <!--
@@ -72,18 +72,23 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="header-content-left">
-                                <img src="img/mujer-joven-que-camina-cinco-perros.jpg" style="width: 70%;">
+                                <br>
+                                <br>
+                                <img src="img/mujer-joven-que-camina-cinco-perros.jpg" style="width: 85%;">
 
                             </div>
 
                         </div>
                         <div class="col-md-6">
                             <div class="header-content-right">
+                                <br>
+                                <br>
+                                <br>
                                 <h1 class="display-7">Bienvenidos.</h1>
-                                <p class="mt-5">¿ Estás ocupado y necesitas un paseador para tu perrito ?. Toda mi vida 
+                                <p class="mt-3">¿ Estás ocupado y necesitas un paseador para tu perrito ?. Toda mi vida 
                                     he sido amante de los animales. Lista para un día de diversión con tu mejor amigo. 
                                     Poseo experiencia en el cuidado y entendimiento de perros.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-lg mt-2">Leer mas</a>
+                                <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Leer mas</a>
 
                         </div>
                     </div>
@@ -97,10 +102,7 @@
                         ¿Con qué frecuencia debo pasear a mi perro?<br>
                         Cada perro es único. La mayoría de los perros requieren una caminata de 30 minutos por día, 
                         sin embargo, las razas más grandes y más activas deben obtener una hora de caminata por día
-                        <br>
-                        <br>
-                        ¿Qué pasa si mi perro tiene necesidades especiales?<br>
-                        No hay problema puedes, especificarlas en el momento que agendas el paseo.<br>
+                                
                         <br>
                         Los perros requieren actividad física y mental para mantenerse felices y saludables, 
                         Paseo Mascotas, alivia esta tarea ayudándote a cumplir responsablemente con las necesidades 
@@ -112,6 +114,76 @@
             </section>
 
             <!-- INFO ONE // Informacion n°1 -->
+            <section id="info-one">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <div class="info-left">
+                                <img src="img/paseo1.jpg" style="width: 100%;">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 my-auto">
+                            <div class="info-right">
+                                <h2>Paseo en Parque Forestal</h2>
+                                <p>Es esencial, además, conocer personalmente al paseador antes de contratarlo. 
+                                    Es fundamental que se muestre cariñoso y amable tanto con nosotros como con 
+                                    nuestra mascota, asegurándonos de que el animal se siente cómodo a su lado. 
+                                    Debe inspirarnos confianza y complicidad, así como saber interpretar el 
+                                    lenguaje canino y poseer conocimientos de adiestramiento y primeros auxilios 
+                                    para perros.</p>
+                                    <a href="#" class="btn btn-outline-secondary btn-lg">Leer mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INFO TWO // Informacion n°2 -->
+            <section id="info-two">
+                <div class="container">
+                    <div class="row my-5">
+                        <div class="col-md-6">
+                            <h2>Lunes a Viernes</h2>
+                            <p>Paseo de perros en Las Condes, Vitacura, Providencia, Lo Barnechea, Ñuñoa, Macul, 
+                            La Reina</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Festivos y Fin de Semana</h2>
+                            <p>Santiago centro, Viña del Mar, Concón. Ya tenemos el servicio en más comunas, 
+                                si no mencionamos la tuya, pregúntanos. Todos los paseadores son verificados
+                                Aprovecha el mejor precio contratando el plan de 20 paseos</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <form class="card my-4">
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Name" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <textarea rows="10" cols="30" placeholder="Message" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-secondary btn-block">Enviar</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </footer>
 
             </div>
 
@@ -127,5 +199,49 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <script>
+            window.sr = ScrollReveal(); // esto es un metodo que permite animacion de imagenes
+            sr.reveal('.navbar', {
+                duration: 3000,
+                origin: 'bottom'
+            });
+            sr.reveal('.header-content-left', {
+                duration: 3000,
+                origin: 'top',
+                distance: '300px'
+            });
+            sr.reveal('.header-content-right', {
+                duration: 3000,
+                origin: 'right',
+                distance: '300px'
+            });
+            sr.reveal('.header-btn', {
+                duration: 3000,
+                origin: 'bottom',
+                delay: 1500
+            });
+            sr.reveal('#testimonial', {
+                duration: 3000,
+                origin: 'left',
+                distance: '300px',
+                viewFactor: 0.2
+            });
+
+            // script que permite el efecto de deslizarce en la pagina al usar el menu de navegacion
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+            
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    
+    
+    
     </body>
     </html>

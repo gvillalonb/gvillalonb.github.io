@@ -2,9 +2,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    margin-top: 75px;
+}
+
 #testimonial {
     background: #f1f1f1;
     padding: 50px 0 30px 0;  /* 50x hacia arriba, 0 hacia la derecha, 30px hacia abajo, y 0 hacia la izquierda */
     text-align: center;     /*alinear texto al centro */
-    margin-top: 40px;       /* espaciado desde arriba hacia abajo de 40px */
+    margin-top: 60px;       /* espaciado desde arriba hacia abajo de 40px */
+}
+
+footer{
+    background: url(../img/email.png) no-repeat; 
+    
+        
 }
